@@ -1,0 +1,82 @@
+.App {
+	text-align: center;
+}
+body {
+	background-color: lightgray;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.chrono {
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	border: 0.2px solid #5453533d;
+	width: 230px;
+	height: 70px;
+	margin: 15px;
+	background: #acf1f0;
+  border-radius: 5px;
+}
+
+.chrono h1 {
+	margin-top: 18px;
+}
+
+button {
+	margin: 7px;
+	background: transparent;
+	font-size: 20px;
+	font-weight: lighter;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #0000001a;
+}
+
+button:hover {
+	border-bottom-color: #000;
+}
+
+.ChronoApp {
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #d4d1d1;
+	background: white;
+	width: 280px;
+	height: 160px;
+  border-radius: 10px;
+}
