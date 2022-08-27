@@ -31,7 +31,7 @@ function App() {
 					</h1>
 				</div>
 
-				<div className="btn">
+				<div>
 					<button onClick={() => setStart(true)}>START</button>
 					<button onClick={() => setStart(false)}>STOP</button>
 					<button

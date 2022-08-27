@@ -48,7 +48,7 @@ body {
 	height: 70px;
 	margin: 15px;
 	background: #acf1f0;
-  border-radius: 5px;
+	border-radius: 5px;
 }
 
 .chrono h1 {
@@ -78,5 +78,5 @@ button:hover {
 	background: white;
 	width: 280px;
 	height: 160px;
-  border-radius: 10px;
+	border-radius: 10px;
 }
