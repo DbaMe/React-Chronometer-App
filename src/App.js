@@ -32,8 +32,8 @@ function App() {
 				</div>
 
 				<div>
-					<button onClick={() => setStart(true)}>START</button>
-					<button onClick={() => setStart(false)}>STOP</button>
+					<button onClick={() => setStart( true)}>START</button>
+					<button onClick={() => setStart( false)}>STOP</button>
 					<button
 						onClick={() => {
 							setTime(0);
